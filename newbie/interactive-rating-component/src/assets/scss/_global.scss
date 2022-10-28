@@ -1,0 +1,34 @@
+@import "variables";
+@import "typography";
+
+:root {
+  --cl-white: #{$white};
+  --cl-primary: #{$primary};
+  --cl-light-gray: #{$light-gray};
+  --cl-medium-gray: #{$medium-gray};
+  --cl-dark-blue: #{$dark-blue};
+  --cl-darker-blue: #{$darker-blue};
+
+  --fs-paragraph: #{$paragraph};
+  --fs-lighter: #{$lighter};
+  --fs-light: #{$light};
+  --fs-bold: #{$bold};
+  --fs-bolder: #{$bolder};
+
+  --fw-400: #{$fw-400};
+  --fw-700: #{$fw-700};
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
