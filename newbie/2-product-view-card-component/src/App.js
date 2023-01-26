@@ -4,7 +4,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 function App() {
   return (
     <div className="wrapper">
-      <div className="x">
+      <div className="container">
         <div className="img" />
         <div className="content-container">
           <h5>perfume</h5>
