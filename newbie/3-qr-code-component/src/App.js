@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="wrapper">
       <div className="container">
-        <img src="/image-qr-code.png" className="img" />
+        <img src="/image-qr-code.png" className="img" alt="image"/>
         <div className="text-container">
           <h3>Improve your front-end skills by building projects</h3>
           <div>
