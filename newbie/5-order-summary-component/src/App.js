@@ -22,7 +22,7 @@ function App() {
               <div className="left-inner-container__price">$59.99/year</div>
             </div>
           </div>
-          <a href="#" className="change">
+          <a href="/" className="change">
             Change
           </a>
         </div>
