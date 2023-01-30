@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="wrapper">
       <div className="card-img">
-        <img src="/image-equilibrium.jpg" className="img" />
+        <img src="/image-equilibrium.jpg" className="img" alt="equilibrumImage"/>
         <div>
           <IconView className="view absolute" />
           <div className="overlay" />
