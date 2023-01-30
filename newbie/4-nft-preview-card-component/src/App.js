@@ -8,7 +8,10 @@ function App() {
     <div className="wrapper">
       <div className="card-img">
         <img src="/image-equilibrium.jpg" className="img" />
-        <IconView className="view" />
+        <div>
+          <IconView className="view absolute" />
+          <div className="overlay" />
+        </div>
       </div>
       <div className="title">Equilibrium #3429</div>
       <div className="description light-gray medium">
@@ -25,7 +28,6 @@ function App() {
         </div>
       </div>
       <div className="line" />
-
       <div className="avatar-container">
         <img src="/image-avatar.png" alt="avatar" className="avatar" />
         <div className="text-container">

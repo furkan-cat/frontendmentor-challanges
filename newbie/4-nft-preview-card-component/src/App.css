@@ -4,7 +4,8 @@
   background-color: hsl(216, 50%, 16%);
 }
 
-.wrapper:hover .view {
+.wrapper:hover .view,
+.wrapper:hover .overlay {
   display: block;
 }
 
@@ -14,16 +15,28 @@
 
 .img {
   width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  display: none;
+  background-color: hsla(178, 100%, 50%, 0.467);
+  border-radius: 10px;
+  inset: 0 0 4px 0;
 }
 
 .view {
-  position: absolute;
   display: none;
+}
+
+.absolute {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 .wrapper,
 img {
