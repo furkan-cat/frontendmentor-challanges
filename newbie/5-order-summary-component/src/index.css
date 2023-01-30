@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("../public/pattern-background-desktop.svg");
+  background-color: var(--blue-pale);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -400px;
+}

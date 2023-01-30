@@ -1,0 +1,127 @@
+:root {
+  --blue-pale: hsl(225, 100%, 94%);
+  --blue-bright: hsl(245, 75%, 52%);
+  --blue-very-pale: hsl(225, 100%, 98%);
+  --blue-desaturated: hsl(224, 23%, 55%);
+  --blue-dark: hsl(223, 47%, 23%);
+}
+
+.wrapper {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 15px;
+  margin: 0 15px;
+}
+
+.img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.content-container {
+  display: grid;
+  grid-gap: 15px;
+  padding: 30px 40px;
+}
+
+.text-container {
+  display: grid;
+  text-align: center;
+  grid-gap: 15px;
+}
+
+.text-container__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.text-container__description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #858693;
+}
+
+.plan-container {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fe;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.left-container {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+.left-inner-container {
+  display: grid;
+  grid-gap: 7px;
+}
+
+.left-inner-container__title {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.left-inner-container__price {
+  font-size: 17px;
+  font-weight: 500;
+  color: #858693;
+}
+
+.change {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn-container {
+  display: grid;
+  grid-gap: 15px;
+}
+
+.proceed-btn {
+  box-shadow: rgba(40, 28, 131, 30%) 0px 15px 25px,
+    rgba(38, 15, 113, 8%) 0px 5px 10px;
+  background-color: var(--blue-bright);
+}
+
+.cancel-btn {
+  color: #858693;
+  background-color: transparent;
+  transition: 0.3s all;
+}
+
+.cancel-btn:hover {
+  background-color: #9596a262;
+  border-radius: 10px;
+}
+
+.proceed-btn,
+.cancel-btn:hover {
+  color: #fff;
+}
+
+.proceed-btn,
+.cancel-btn {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 15px 0;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 450px) {
+  .wrapper {
+    width: 425px;
+    margin: unset;
+  }
+}
