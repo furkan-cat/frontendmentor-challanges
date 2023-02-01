@@ -11,7 +11,7 @@ function App() {
             sizes="(max-width: 450px) 100, (min-width:450px) 450px"
             type="image/jpg"
           />
-          <img src="/image-header-mobile.jpg" alt="mobile-desktop-image"/>
+          <img src="/image-header-mobile.jpg" alt="mobile-desktop"/>
         </picture>
       </div>
       <div className="text-container">
