@@ -1,5 +1,4 @@
 import "./App.css";
-import BgPatternCard from "./bg-pattern-card";
 import BgPatternTop from "./bg-pattern-top";
 import BgPatternBottom from "./bg-pattern-bottom";
 function App() {
