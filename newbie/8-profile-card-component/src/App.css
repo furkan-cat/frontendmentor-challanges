@@ -1,0 +1,119 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+.wrapper {
+  width: 100%;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.image-container {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  background-image: url("../public/bg-pattern-card.svg");
+  background-size: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.image-container__item {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 75px;
+  padding-bottom: 60px;
+}
+.content-container__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.content-container__age {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+}
+
+.content-container-location {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+}
+
+hr {
+  width: 100%;
+  border-top: 1px solid var(--dark-grayish-blue);
+  margin: 25px 0;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer > div {
+  text-align: center;
+}
+
+.bold {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.light {
+  font-size: 19px;
+  color: var(--dark-grayish-blue);
+}
+
+.bg-top-svg {
+  position: fixed;
+  top: -600px;
+  left: -700px;
+  z-index: -1;
+}
+
+.bg-bottom-svg {
+  position: fixed;
+  bottom: -600px;
+  right: -700px;
+  z-index: -1;
+}
+
+@media screen and (min-width: 425px) {
+  .wrapper {
+    width: 400px;
+  }
+
+  .bg-top-svg {
+    position: fixed;
+    top: -600px;
+    left: -250px;
+    z-index: -1;
+  }
+
+  .bg-bottom-svg {
+    position: fixed;
+    bottom: -600px;
+    right: -250px;
+    z-index: -1;
+  }
+}
