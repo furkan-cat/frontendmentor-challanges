@@ -1,0 +1,21 @@
+:root {
+  font-family: "Outfit", sans-serif;
+  --fw-4: 400;
+  --fw-5: 500;
+  --fw-7: 700;
+}
+
+::before,
+::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
